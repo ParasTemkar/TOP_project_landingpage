@@ -1,0 +1,112 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.Header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.Headerlogo {
+    height: 50px;
+}
+
+.imagelink {
+    color: #F9FAF8;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.Hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#Herotextsec {
+    max-width: 500px;
+    text-align: left;
+}
+
+#Herotext {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#Herosubtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.member {
+    text-align: center;
+}
+
+.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 50px;
+}
+
+.quoter {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 10%;
+}
+
+.signin {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+}
