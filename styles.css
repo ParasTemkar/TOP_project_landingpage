@@ -110,3 +110,9 @@ footer {
     color: #F9FAF8;
     padding: 20px;
 }
+#leaderimg{
+    width: auto;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+}
